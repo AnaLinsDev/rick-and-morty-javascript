@@ -10,7 +10,9 @@ function showdata(elements){
   
   for(let i = 0; i<=list.length-1;i++){
       let element =` 
-      <div class="item"><img src="${list[i].image}" alt="${list[i].name}">
+      <div class="item" <p style = "text-align: center;"><img src="${list[i].image}" alt="${list[i].name}">
+      <p style = "text-align: center;">${list[i].name}</p>
+      <p style = "text-align: center;">${list[i].status}</p>
       </div>
       `
       result+= element     
