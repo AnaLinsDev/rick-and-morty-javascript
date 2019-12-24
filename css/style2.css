@@ -363,4 +363,5 @@ div.item6 img{
   color: whitesmoke;
   width: 250px;
   height: 50px;
+  background-attachment: fixed;
 }
