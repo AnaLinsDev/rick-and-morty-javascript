@@ -163,7 +163,7 @@ div.container> div{
 .item{
     text-align: left;
     font-size: 120%;
-    border-radius: 200px;
+    border-radius: 10px;
     background-image: linear-gradient(rgba(17, 6, 36, 0.856), rgba(0, 16, 236, 0.637));
     background-attachment: fixed;
   }
@@ -175,11 +175,7 @@ div.container> div{
   float: left;
   height: 150px;
   width: 150px;
-}
-.item img{
-
-  border-radius: 100%;
-  
+  border-radius: 10%;
 }
 p.desc{
   color: whitesmoke;
@@ -371,11 +367,17 @@ div.item6 img{
   border:2px,solid, green;
   font-style: oblique;
   width: 250px;
-  height: 60px;
+  height: 50px;
 }
 .botao{
   color: whitesmoke;
   width: 250px;
   height: 50px;
   background-attachment: fixed;
+}
+.botao:hover{
+  cursor: pointer;
+}
+.but:hover{
+  cursor: pointer;
 }
