@@ -165,7 +165,7 @@ div.container> div{
     font-size: 120%;
     border-radius: 20px;
     background-image: linear-gradient(rgba(250, 16, 8, 0.856), rgba(3, 15, 182, 0.637));
-   background-attachment: fixed;
+    background-attachment: fixed;
   }
 
 .item img{
@@ -174,11 +174,11 @@ div.container> div{
   margin-right: 20px;
   float: left;
   height: 150px;
-  width: 120px;
+  width: 150px;
 }
 .item img{
 
-  border-radius: 100%;
+  border-radius: 10%;
   
 }
 p.desc{
