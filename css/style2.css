@@ -155,7 +155,7 @@ textarea, form input[type="text"]{
 }
 div.container> div{
       background-color: black;
-      color:whitesmoke;
+      color: whitesmoke;
       text-align: justify;
       margin-bottom: 10px;
       padding: 25px;
@@ -163,8 +163,8 @@ div.container> div{
 .item{
     text-align: left;
     font-size: 120%;
-    border-radius: 20px;
-    background-image: linear-gradient(rgba(250, 16, 8, 0.856), rgba(3, 15, 182, 0.637));
+    border-radius: 200px;
+    background-image: linear-gradient(rgba(17, 6, 36, 0.856), rgba(0, 16, 236, 0.637));
     background-attachment: fixed;
   }
 
@@ -178,7 +178,7 @@ div.container> div{
 }
 .item img{
 
-  border-radius: 10%;
+  border-radius: 100%;
   
 }
 p.desc{
@@ -190,11 +190,18 @@ p.desc{
   width: 80%;
   text-align: justify;
   font-size: 120%;
-  border-radius: 10px;
+  border-radius: 50px;
+  margin-right:5%;
+  margin-left:5%;
+  margin-bottom: 30px;
   background-image: linear-gradient(rgba(250, 16, 8, 0.856), rgba(3, 15, 182, 0.637));
   background-attachment: fixed;
 }
-
+.fil:hover{
+  color: whitesmoke;
+  border-radius: 0px;
+  font-weight: 200;
+}
 .containerF {
   align-content: center;
   display: grid;
@@ -204,7 +211,14 @@ p.desc{
   margin: 20px;
   margin-top: 70px;
 }
-
+div.containerF> div{
+      background-color: black;
+      color:whitesmoke;
+      border: 1px solid  whitesmoke;
+      text-align: justify;
+      margin-bottom: 10px;
+      padding: 25px;
+}
 .footer{
     margin-bottom: 0%;
     width: 100%;
