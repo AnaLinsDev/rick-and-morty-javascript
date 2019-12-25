@@ -191,11 +191,13 @@ p.desc{
   margin-bottom: 30px;
   background-image: linear-gradient(rgba(250, 16, 8, 0.856), rgba(3, 15, 182, 0.637));
   background-attachment: fixed;
+  transition: transform 1s;
 }
 .fil:hover{
   color: whitesmoke;
-  border-radius: 0px;
   font-weight: 200;
+  transform: scale(1.08);
+  
 }
 .containerF {
   align-content: center;
@@ -379,4 +381,34 @@ div.item6 img{
 }
 .but:hover{
   cursor: pointer;
+}
+.rm{
+  animation: rick 2.69s;
+}
+@keyframes rick{
+  from{
+    opacity: 0;
+    transition: opacity 2.69s;
+  }
+  to{ 
+    opacity: 1;
+  }
+}
+header ul{ 
+  animation: passar 1.5s;
+}
+@keyframes passar {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
