@@ -382,7 +382,7 @@ div.item6 img{
 .but:hover{
   cursor: pointer;
 }
-.rm{
+img{
   animation: rick 2.69s;
 }
 @keyframes rick{
