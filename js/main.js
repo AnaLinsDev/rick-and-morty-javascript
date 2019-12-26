@@ -68,14 +68,16 @@ button.addEventListener('click', function(){
 })
 
 
+
 function is_email(email){
 	er = /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})$/; 
 	if(!email.match(er))
 	{
-		form.innerHTML = 'Email inválido';
+		form.innerHTML = '<br><br><br><h1>Email Inválido<h1></h1>';
   }
   else{
     form.innerHTML = `<br><br><br>
     <h1>Obrigado(a) , ${nome.value}</h1>`
   }
 }
+
