@@ -74,6 +74,7 @@ function is_email(email){
 	if(!email.match(er))
 	{
 		form.innerHTML = '<br><br><br><h1>Email Inválido<h1></h1>';
+		alert('Email Inválido')
   }
   else{
     form.innerHTML = `<br><br><br>
