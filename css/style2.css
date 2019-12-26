@@ -191,7 +191,7 @@ p.desc{
   margin-bottom: 30px;
   background-image: linear-gradient(rgba(250, 16, 8, 0.856), rgba(3, 15, 182, 0.637));
   background-attachment: fixed;
-  transition: transform 1s;
+  transition: transform 0.01s;
 }
 .fil:hover{
   color: whitesmoke;
