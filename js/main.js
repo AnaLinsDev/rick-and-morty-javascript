@@ -33,6 +33,15 @@ function showdata(elements){
     result = ''
     for(let i = 0; i<=11;i++){
       if (text.value == list[i].name){
+            if (list[i].status == 'Alive'){
+      cor = 'rgb(0, 197, 16);'
+    }
+    if (list[i].status == 'Dead'){
+      cor = 'rgb(221, 0, 0);'
+    }
+    if (list[i].status == 'unknown'){
+      cor = 'whitesmoke;'
+    }
         let element =`
         <div class="item"  style = "text-align: center;"><img src="${list[i].image}" alt="${list[i].name}">
         <p style = "text-align: center;">${list[i].name}</p>
