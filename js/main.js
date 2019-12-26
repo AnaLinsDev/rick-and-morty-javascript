@@ -1,13 +1,16 @@
+//API DOS PERSONAGENS
+let item = document.querySelector('.characters')
+let text = document.querySelector('input[id = "search-input"]')
+let botao = document.getElementsByClassName('.botaok')
 function getC(link){
   fetch(link)
   .then(response => response.json())
   .then(elements => showdata(elements))
 }
-
 function showdata(elements){
   let result = ``
   let list = elements["results"]
-  for(let i = 0; i<=list.length-1;i++){
+    for(let i = 0; i<=11;i++){
     if (list[i].status == 'Alive'){
       cor = 'rgb(0, 197, 16);'
     }
@@ -23,13 +26,29 @@ function showdata(elements){
       <p style = "color: ${cor};" style = "text-align: center;">${list[i].status}</p>
       </div>
       `
-      result+= element     
+      result+= element
   }
-  item.innerHTML += result 
-}
-let item = document.querySelector('.characters')
+  item.innerHTML = result
+  text.addEventListener('change', function(){
+    result = ''
+    for(let i = 0; i<=11;i++){
+      if (text.value == list[i].name){
+        let element =`
+        <div class="item"  style = "text-align: center;"><img src="${list[i].image}" alt="${list[i].name}">
+        <p style = "text-align: center;">${list[i].name}</p>
+        <p style = "color: ${cor};" style = "text-align: center;">${list[i].status}</p>
+        </div>
+        `
+        result+= element
+      }}
+   item.innerHTML = result
+  })}
+
+
+
 
 getC('https://rickandmortyapi.com/api/character/')
+
 
 let button = document.querySelector('.but')
 let form = document.querySelector('fieldset')
