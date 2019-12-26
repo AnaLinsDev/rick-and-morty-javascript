@@ -82,3 +82,17 @@ function is_email(email){
   }
 }
 
+function Filtragem() {
+  var input, filter, divItem, li, a, i, txtValue;
+  input = document.getElementById("search-input");
+  filter = input.value.toUpperCase();
+  divItem = document.getElementsByClassName("item")
+  for (i = 0; i < li.length; i++) {
+      txtValue = list[i].name
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          divItem[i].style.display = "";
+      } else {
+          divItem[i].style.display = "none";
+      }
+  }
+}
