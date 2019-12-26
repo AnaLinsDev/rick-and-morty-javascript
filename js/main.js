@@ -53,3 +53,16 @@ function showdata(elements){
    item.innerHTML = result
   })}
 
+
+
+
+getC('https://rickandmortyapi.com/api/character/')
+
+
+let button = document.querySelector('.but')
+let form = document.querySelector('fieldset')
+let nome = document.querySelector('#nome')
+button.addEventListener('click', function(){
+  form.innerHTML = `<br><br><br>
+<h1>Obrigado(a) , ${nome.value}</h1>`
+})
