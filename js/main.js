@@ -62,7 +62,20 @@ getC('https://rickandmortyapi.com/api/character/')
 let button = document.querySelector('.but')
 let form = document.querySelector('fieldset')
 let nome = document.querySelector('#nome')
+let email = document.querySelector('input[id = "email"]')
 button.addEventListener('click', function(){
-  form.innerHTML = `<br><br><br>
-<h1>Obrigado(a) , ${nome.value}</h1>`
+  is_email(email.value)
 })
+
+
+function is_email(email){
+	er = /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})$/; 
+	if(!email.match(er))
+	{
+		form.innerHTML = 'Email inválido';
+  }
+  else{
+    form.innerHTML = `<br><br><br>
+    <h1>Obrigado(a) , ${nome.value}</h1>`
+  }
+}
