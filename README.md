@@ -1,4 +1,4 @@
-# TESTE DE LS   24/01 .-.-.-.  (4/6) VAI DA BOM!!!!!
+# TESTE DE LS   24/01 .-.-.-.  (6/6) VAI DA BOM!!!!!
  
 <a href = 'https://anajl.github.io/TESTESJS/site/index.html' resl = 'nofollow' target = "_blank"> Clique Aqui ! </a><br>
 
