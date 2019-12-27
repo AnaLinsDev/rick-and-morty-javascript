@@ -1,0 +1,28 @@
+{
+  "name": "projetols2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmandaGAB/ProjetoLS2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmandaGAB/ProjetoLS2/issues"
+  },
+  "homepage": "https://github.com/AmandaGAB/ProjetoLS2#readme"
+}
