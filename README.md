@@ -7,5 +7,5 @@
 2	Criação de componentes dinâmicos ------------------------------------DONE ~ Personagens <br>
 3	Uso do FETCH API e JSON -----------------------------------------------DONE ~ Personagens <br> 
 4	Uso de RegExp -----------------------------------------------------------DONE ~ Contato <br>
-5	Uso de módulos com Webpack -----------------------------------------DONE ~ <br>
+5	Uso de módulos com Webpack -----------------------------------------DONE  <br>
 6	Uso de pacotes do JS  -----------------DONE ~ Contato (aula 37)<br> 
