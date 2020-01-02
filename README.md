@@ -4,8 +4,8 @@
 
 
 1	Uso de programação funcional -----------------------------------------DONE<br>
-2	Criação de componentes dinâmicos ------------------------------------DONE <br>
-3	Uso do FETCH API e JSON -----------------------------------------------DONE <br>
-4	Uso de RegExp -----------------------------------------------------------DONE <br>
-5	Uso de módulos com Webpack -----------------------------------------DONE ~ (aula 36)<br>
-6	Uso de pacotes do JS (no mínimo um pacote inédito) -----------------DONE~ (aula 37)<br> 
+2	Criação de componentes dinâmicos ------------------------------------DONE ~ Personagens <br>
+3	Uso do FETCH API e JSON -----------------------------------------------DONE ~ Personagens <br> 
+4	Uso de RegExp -----------------------------------------------------------DONE ~ Contato <br>
+5	Uso de módulos com Webpack -----------------------------------------DONE ~ <br>
+6	Uso de pacotes do JS  -----------------DONE ~ Contato (aula 37)<br> 
