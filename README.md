@@ -3,9 +3,5 @@
 <a href = 'https://anajl.github.io/ProjetoLS2/site/index.html' resl = 'nofollow' target = "_blank"> Clique Aqui ! </a><br>
 
 
-1	Uso de programação funcional -----------------------------------------DONE<br>
-2	Criação de componentes dinâmicos ------------------------------------DONE ~ Personagens <br>
-3	Uso do FETCH API e JSON -----------------------------------------------DONE ~ Personagens <br> 
-4	Uso de RegExp -----------------------------------------------------------DONE ~ Contato <br>
-5	Uso de módulos com Webpack -----------------------------------------DONE  <br>
-6	Uso de pacotes do JS  -----------------DONE ~ Contato (aula 37)<br> 
+![4](https://user-images.githubusercontent.com/56701827/73038915-ef29c380-3e32-11ea-93d6-832a3c740ccc.png)
+
