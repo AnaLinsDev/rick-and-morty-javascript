@@ -3,7 +3,7 @@
 <a href = 'https://anajl.github.io/ProjetoLS2/site/index.html' resl = 'nofollow' target = "_blank"> Clique Aqui ! </a><br>
 
 <h1>Descrição</h1>
-<p>  </p>
+<p>Este site foi criado para o Projeto da disciplina de Linguagem Script da IFPB, ele tem o objetivo de ser um local para fãs ou curiosos sobre a animação norte-americana Rick and Morty visitarem, lerem e aproveitarem as informações ligadas à série.  </p>
 
 <h1>Foi usado:</h1>
 <p>Javascript  </p>
